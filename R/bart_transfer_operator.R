@@ -13,7 +13,7 @@ filter_bart_transfers <- function(tr_df) {
   return(tr_df)
 }
 
-#' Create time metadata using spread_time_column
+#' Build dataframe of time metadata using spread_time_column
 #' @param df1 a dataframe of transactions
 #' @returns times_df a dataframe of spread times
 nice_time <- function(df1) {
